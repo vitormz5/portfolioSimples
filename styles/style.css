@@ -33,7 +33,8 @@ body {
 
 .cabecalho__menu__link {
   font-family: var(--fonte-secundaria);
-  font-size: 24px;
+  /* rem = 16px = pega o valor root do html */
+  font-size: 1.5rem;
   font-weight: 600px;
   font-weight: 600;
   text-decoration: none;
@@ -41,7 +42,7 @@ body {
 }
 
 .img__inicio {
-  height: 400px;
+  width: 50%;
   border-radius: 6px;
 }
 
@@ -54,22 +55,25 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 5% 13%;
+  gap: 82px;
 }
 
 .apresentacao__conteudo {
-  width: 615px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-  font-size: 36px;
+  /* rem = 16px = pega o valor root do browser */
+  font-size: 2.25rem;
   font-family: var(--fonte-principal);
 }
 
 .apresentacao__conteudo__texto {
-  font-size: 24px;
+  /* rem = 16px = pega o valor root do browser */
+  font-size: 1.5rem;
   font-family: var(--fonte-secundaria);
   text-align: justify;
 }
@@ -86,7 +90,8 @@ body {
 .apresentacao__link__subtitulo {
   font-family: var(--fonte-principal);
   font-weight: 400;
-  font-size: 24px;
+  /* rem = 16px = pega o valor root do browser */
+  font-size: 1.5rem;
 }
 
 .apresentacao__links__link {
@@ -95,10 +100,11 @@ body {
   justify-content: center;
   gap: 16px;
   border: 2px solid var(--cor-terciaria);
-  width: 378px;
+  width: 50%;
   text-align: center;
   border-radius: 8px;
-  font-size: 24px;
+  /* rem = 16px = pega o valor root do browser */
+  font-size: 1.5rem;
   padding: 21.5px 0;
   text-decoration: none;
   color: var(--cor-secundaria);
@@ -116,6 +122,21 @@ body {
   padding: 24px;
   text-align: center;
   font-family: var(--fonte-secundaria);
-  font-size: 24px;
+  /* rem = 16px = pega o valor root do browser */
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__menu {
+    justify-content: center;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+  }
 }
