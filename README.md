@@ -1,6 +1,8 @@
 # Portfólio Olá, Bem vindo ao meu projeto de portfólio.
 
-![image](![image](https://github.com/vitormz5/portfolioSimples/assets/113218415/39059d7d-14da-4b11-9425-a87baab047de)
+![portfolioimg](https://github.com/vitormz5/portfolioSimples/assets/113218415/cdd98fcb-f38c-4fec-b949-d2900d111b50)
+
+)
 )
 
 ## Ferramentas utilizadas:
