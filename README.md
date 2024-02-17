@@ -1,5 +1,5 @@
 # Portfólio 
-#Olá, Bem vindo ao meu projeto de portfólio.
+Olá, Bem vindo ao meu projeto de portfólio.
 
 ![portfolioimg](https://github.com/vitormz5/portfolioSimples/assets/113218415/cdd98fcb-f38c-4fec-b949-d2900d111b50)
 
